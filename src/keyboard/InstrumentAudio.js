@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
-import AudioPlayer from "./AudioPlayer";
+import AudioPlayer from "../keyboard/AudioPlayer";
 
 const InstrumentAudio = ({ instrumentName, notes }) => {
     const [instrumentPlayer, setInstrumentPlayer] = useState(null);

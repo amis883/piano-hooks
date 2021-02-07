@@ -1,4 +1,4 @@
-import NOTES from "./notes";
+import NOTES from "../constants/notes";
 
 export default function getNotesBetween(startNote, endNote) {
     const startingIndex = NOTES.indexOf(startNote);

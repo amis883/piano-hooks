@@ -1,7 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
-import InstrumentAudio from "./InstrumentAudio";
-import getNotesBetween from "./getNotesBetween";
-import isAccidentalNote from "./isAccidentalNote";
+import InstrumentAudio from "./keyboard/InstrumentAudio";
+import getNotesBetween from './utils/getNotesBetween';
+import isAccidentalNote from "./utils/isAccidentalNote";
 const isRegularKey = event => {
     return !event.ctrlKey && !event.metaKey && !event.shiftKey;
 };
