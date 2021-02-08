@@ -1,8 +1,7 @@
 import SoundFontPlayer from "soundfont-player";
-import AudioContext from "../keyboard/AudioContext";
+import AudioContext from "./AudioContext";
 
 const NullSoundFontPlayerNoteAudio = {
-  stop() { }
 };
 
 const NullSoundFontPlayer = {
